@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -771,20 +771,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f45c0d;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #f45c0d!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #f45c0d;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c85114!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -1047,12 +1047,13 @@ h4 {
     align-items: center;
     color: white!important;
 }
-ul {
+.social {
+    color: #000000;
+}
+footer, ul {
     width: 100%;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-}
-li {
-    padding: 2% 2%;
+    color: black!important;
 }
