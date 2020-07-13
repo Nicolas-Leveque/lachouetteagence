@@ -1050,7 +1050,7 @@ h4 {
 .social {
     color: #000000;
 }
-footer, ul {
+footer > ul {
     width: 100%;
     display: flex;
     list-style-type: none;
