@@ -1053,13 +1053,15 @@ h4 {
     align-items: center;
     color: white!important;
 }
-.social {
-    color: #000000;
-}
-footer > ul {
+.partenaires ul {
     width: 100%;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
     color: black!important;
+}
+@media (max-width: 500px) {
+    .partenaires ul {
+        flex-direction: column;
+    }
 }
