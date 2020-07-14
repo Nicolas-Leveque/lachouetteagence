@@ -1064,4 +1064,14 @@ h4 {
     .partenaires ul {
         flex-direction: column;
     }
+    .partenaires li {
+        padding: 2%;
+    }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere_phone.jpg");
+    }
+    .bg-presentation {
+        background-image: url("img/image-de-presentation_phone.jpg");
+    }
+
 }
