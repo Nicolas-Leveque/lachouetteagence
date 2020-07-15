@@ -787,7 +787,9 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
-
+.ltc-black {
+    color: #000000!important;
+}
 .ltc-white {
     color: #FFFFFF!important;
 }
